@@ -1,0 +1,26 @@
+{
+  "name": "scrbg",
+  "version": "1.0.0",
+  "description": "base nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yuchiXie/scrbg.git"
+  },
+  "author": "xyc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuchiXie/scrbg/issues"
+  },
+  "homepage": "https://github.com/yuchiXie/scrbg#readme",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.0"
+  }
+}
