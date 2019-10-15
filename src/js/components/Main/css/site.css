@@ -1,4 +1,52 @@
+.main{
+    height:100%
+}
+.leftNav{
+    background-color: rgb(53, 51,51);
+    width:100px;
+    height:100%;
+}
+
+.NavUl{
+    height: 100%;
+}
 .NavDsign{
-    color: red;
+    color: white;
     text-decoration: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+    /* height: 100%; */
+}
+.NavChange{
+    margin: 0px;
+    text-align: right;
+    font-size: 14px;
+}
+.head{
+    /* position: fixed; */
+    height:40px;
+    width:100%;
+    background-color: rgb(34, 34, 34);
+}
+.button{
+    background-color: rgb(229, 140  , 34);
+    height:40px;
+}
+.title{
+    color:white;
+    height:40px;
+    line-height: 40px;
+}
+.iconContainer-59{
+    color:rgb(229, 140, 34)
+}
+.css-49 > :not(:first-child){
+    margin-left:400px;
+}
+.searchBoxChange{
+    margin-left: 200px;
+    height:40px;
+    line-height: 40px;
 }

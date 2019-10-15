@@ -1,12 +1,12 @@
 import * as React from 'react';
 
-export class Admin extends React.Component{
+export class Page extends React.Component{
     constructor(props){
         super(props);
     }
     render(){
         return(
-            <div>Admin</div>
+            <div>Page</div>
         )
     }
 }

@@ -1,11 +1,14 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import { BrowserRouter, Route } from 'react-router-dom';
 import {Main} from "./js/components/Main/main"
+import './css/site.css'
 
 const App:React.FC = () =>{
     return (
-        <div>
+        <div className='app'>
+            <BrowserRouter>
             <Main/>
+            </BrowserRouter>
         </div>
     )
 }
