@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "outDir": "../scrbg/src/js",
+      "sourceMap": true,
+      // "noImplicitAny": true,
+      "lib": ["es5", "es2015", "es2016", "dom"],
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es5",
+      "jsx": "react",
+      "allowJs": true,
+      "noImplicitAny": false
+    },
+    "exclude": [
+      "node_modules"
+    ]
+}
