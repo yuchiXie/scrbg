@@ -1,10 +1,7 @@
 import * as React from "react";
 import { DefaultButton, PrimaryButton, Stack, IStackTokens, formProperties } from 'office-ui-fabric-react';
 import { SearchBox } from 'office-ui-fabric-react/lib/SearchBox';
-import {
-    BrowserRouter as Router,
-    Link
-  } from 'react-router-dom';
+import { BrowserRouter as Router, Link} from 'react-router-dom';
 import { Switch, Route } from 'react-router';
 import {Home} from '../Home/home'
 import {Admin} from '../Admin/admin'
