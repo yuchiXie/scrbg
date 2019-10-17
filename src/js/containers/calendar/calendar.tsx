@@ -26,16 +26,16 @@ export interface ICalendarInlineExampleState {
 
 export interface ICalendarInlineExampleProps {
   isMonthPickerVisible?: boolean;
-  dateRangeType: DateRangeType;
-  autoNavigateOnSelection: boolean;
-  showGoToToday: boolean;
+  dateRangeType?: DateRangeType;
+  autoNavigateOnSelection?: boolean;
+  showGoToToday?: boolean;
   showNavigateButtons?: boolean;
   highlightCurrentMonth?: boolean;
   highlightSelectedMonth?: boolean;
   isDayPickerVisible?: boolean;
   showMonthPickerAsOverlay?: boolean;
   showWeekNumbers?: boolean;
-  minDate?: Date;
+  minDate?: Date; 
   maxDate?: Date;
   restrictedDates?: Date[];
   showSixWeeksByDefault?: boolean;
@@ -76,15 +76,7 @@ export default class CalendarInline extends React.Component<ICalendarInlineExamp
 
     return (
       <div style={divStyle}>
-        {
-          <div>
-            Selected date(s): <span>{!this.state.selectedDate ? 'Not set' : this.state.selectedDate.toLocaleString()}</span>
-          </div>
-        }
-        <div>
-          Selected dates:
-          <span> {!dateRangeString ? 'Not set' : dateRangeString}</span>
-        </div>
+       
         {(this.props.minDate || this.props.maxDate) && (
           <div>
             Date boundary:

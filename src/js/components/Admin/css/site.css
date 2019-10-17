@@ -37,15 +37,23 @@
     height:50px;
     border-radius: 15px;
 }
+.root-71{
+    background-color:rgb(56,54,54) ;
+    border-radius:15px;
+}
 .root-72{
     background-color: rgb(56,54,54);
     border-radius:15px;
     color:white
 }
+.root-78{
+    background-color:rgb(56,54,54) ;
+    color: white;
+}
 .menuIco-75{
     color:rgb(229, 140, 34)
 }
-.icon-73{
+.icon-79{
     color:rgb(229, 140, 34)
 }
 .menuIcon-75{
@@ -92,11 +100,68 @@
     border-radius: 15px;
     width:1127px;
     height: 320px;
+    overflow-y: scroll;
 }
 .Footer{
     position: absolute;
-    bottom: -30px;
+    bottom: -35px;
     left: 270px;
     color:white;
     /* text-align: center; */
+}
+.monthAndYear_fcec416d, .year_fcec416d, .decade_fcec416d{
+    color:white
+}
+/* .weekday_fcec416d{
+    color:white
+} */
+.dayIsUnfocused_fcec416d{
+    color:rgb(229, 140, 34)
+}
+.dayWrapper_fcec416d, .weekday_fcec416d{
+    color:white
+}
+.currentYear_fcec416d, .currentDecade_fcec416d{
+    color:white
+}
+.closeButton_fcec416d, .prevMonth_fcec416d, .nextMonth_fcec416d, .prevYear_fcec416d, .nextYear_fcec416d, .prevDecade_fcec416d, .nextDecade_fcec416d{
+    color:white
+}
+.monthOption_fcec416d, .yearOption_fcec416d{
+    color:white
+}
+.pickerIsOpened_fcec416d{
+    left:-16px;
+    top:25px;
+}
+.selectionDetails-54{
+    margin-bottom: 0px;
+}
+.root-143{
+    background-color: rgb(56,54,54);
+    border-bottom-color: #A9A9A9;
+    color:white
+}
+.isRowHeader-152{
+    color:white
+}
+.root-102{
+    background-color: rgb(56,54,54);
+    color:white
+}
+.root-106{
+    background-color: rgb(56,54,54);
+    border-bottom-color: #A9A9A9;
+}
+.root-125{
+    color:white
+}
+.fileIconHeaderIcon-129{
+    color: white;
+}
+.root-138{
+    color:white
+}
+.sortIcon-128{
+    color:white;
 }

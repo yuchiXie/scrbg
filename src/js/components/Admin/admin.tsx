@@ -3,6 +3,7 @@ import { IPersonaSharedProps, Persona, PersonaSize, PersonaPresence } from 'offi
 import { CommandBar } from 'office-ui-fabric-react/lib/CommandBar';
 import { TestImages } from '@uifabric/example-data';
 import  CalendarInline  from '../../containers/calendar/calendar'
+import {DetailsListDocuments} from '../../containers/tabylist/tabylist'
 import './css/site.css'
 
 var echarts = require('echarts');
@@ -84,7 +85,7 @@ export class Admin extends React.Component{
     render(){
         return(
             <div>
-                <div className='NameTitle'>
+                <div className='NameTitle backDsign'>
                 <CommandBar
                     items={this.getItems()}
                     // overflowItems={this.getOverlflowItems()}
@@ -98,9 +99,11 @@ export class Admin extends React.Component{
                 <div id='EchartFirst' className='EchartsFirst'></div>
                 <div id='EchartSecond' className='EchartsSecond'></div>
                 <div className='Inf'>
-                <CalendarInline/>
+                  <CalendarInline/>
                 </div>
-                <div className='TableList'></div>
+                <div className='TableList'>
+                  <DetailsListDocuments/>
+                </div>
                 <footer className='Footer'>中国路桥工程有限责任公司版权所有 | 京ICP备09028108号 | 京公网安备 11010102001123号</footer>
             </div>
         )
