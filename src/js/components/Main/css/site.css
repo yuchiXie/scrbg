@@ -2,22 +2,44 @@
     height:100%
 }
 .leftNav{
-    background-color: rgb(53, 51,51);
-    width:100px;
+    background-color: rgb(212, 212, 212);
+    width:150px;
     height:100%;
+}
+.iconSettings{
+    position: absolute;
+    color:white;
+    right:10px;
+    top:11px;
+}
+.iconMail{
+    position: absolute;
+    color:white;
+    right:50px;
+    top:11px;
+}
+.iconQuestion{
+    position: absolute;
+    color:white;
+    right:90px;
+    top:11px;
 }
 
 .NavUl{
-    height: 100%;
+    position: absolute;
+    top:40px;
+    height: 80%;
+    /* text-align: center; */
 }
 .NavDsign{
     display: block;
-    color: white;
+    color:rgb(114,116,118);
     text-decoration: none;
     cursor: pointer;
     margin-top: 10px;
-    font-size: 10px;
-    text-align: center;
+    margin-left: 40px;
+    font-size: 13px;
+    /* text-align: center; */
     /* height: 100%; */
 }
 .NavChange{
@@ -26,19 +48,23 @@
     font-size: 14px;
 }
 .head{
-    /* position: fixed; */
+    position: fixed;
     height:40px;
     width:100%;
-    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(to right, rgb(41,66,142) ,rgb(71,113,199),rgb(106,164,235));
+    border-radius: 1px;
 }
 .button{
     background-color: rgb(229, 140  , 34);
     height:40px;
 }
 .title{
+    position: absolute;
+    left:20px;
     color:white;
+    font-size: 13px;
     height:40px;
-    line-height: 40px;
+    line-height:40px;
 }
 .iconContainer-59{
     color:rgb(229, 140, 34)

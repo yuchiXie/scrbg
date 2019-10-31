@@ -23,7 +23,7 @@ export class Admin extends React.Component{
       // 绘制图表
       myChart.setOption({
         textStyle: {
-          color: 'white'
+          color: 'rgb(114,116,118)'
       },
       series : [
         {
@@ -104,7 +104,7 @@ export class Admin extends React.Component{
                 <div className='TableList'>
                   <DetailsListDocuments/>
                 </div>
-                <footer className='Footer'>中国路桥工程有限责任公司版权所有 | 京ICP备09028108号 | 京公网安备 11010102001123号</footer>
+                {/* <footer className='Footer'>中国路桥工程有限责任公司版权所有 | 京ICP备09028108号 | 京公网安备 11010102001123号</footer> */}
             </div>
         )
     }

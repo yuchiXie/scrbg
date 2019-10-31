@@ -13,54 +13,55 @@
     z-index: 1;
 }
 .primaryText-67 {
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .secondaryText-68 {
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .NameTitle{
     position: absolute;
-    top: 50px;
+    top: 54px;
     right:10px;
+    /* border-radius: 15px; */
 }
 .backDsign{
-    width: 1127px;
+    width: 85%;
     height:50px;
-    background-color: rgb(56,54,54);
+    background-color: rgb(255,255,255);
     border-radius: 15px;
 }
 .root-65{
-    background-color: rgb(56,54,54);
+    background-color: rgb(255,255,255);
     margin: 0px;
     padding:0px;
-    width: 1127px;
+    /* width: 1127px; */
     height:50px;
     border-radius: 15px;
 }
 .root-71{
-    background-color:rgb(56,54,54) ;
+    background-color:rgb(255,255,255) ;
     border-radius:15px;
 }
 .root-72{
-    background-color: rgb(56,54,54);
+    background-color: rgb(255,255,255);
     border-radius:15px;
-    color:white
+    color:rgb(93,94,96)
 }
 .root-78{
-    background-color:rgb(56,54,54) ;
-    color: white;
+    background-color:rgb(255,255,255) ;
+    color: rgb(93,94,96);
 }
 .menuIco-75{
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .icon-79{
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .menuIcon-75{
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .NameSpan{
-    color:white;
+    color:rgb(93,94,96);
     position: relative;
     left:1085px;
     top:-35px
@@ -68,37 +69,37 @@
 .EchartsFirst{
     position: absolute;
     top:120px;
-    left:113px;
-    background-color:rgb(56,54,54) ;
+    left:160px;
+    background-color:rgb(255,255,255) ;
     border-radius: 15px;
-    width:325px;
+    width:25%;
     height: 300px;
 }
 .EchartsSecond{
     position: absolute;
     top:120px;
-    left:475px;
-    background-color:rgb(56,54,54) ;
+    left:570px;
+    background-color:rgb(255,255,255) ;
     border-radius: 15px;
-    width:325px;
+    width:25%;
     height: 300px;
 }
 .Inf{
     position: absolute;
     top:120px;
     right:10px;
-    background-color:rgb(56,54,54) ;
+    background-color:rgb(255,255,255) ;
     border-radius: 15px;
-    width:410px;
+    width:30%;
     height: 300px;
 }
 .TableList{
     position: absolute;
     top:440px;
     right:10px;
-    background-color:rgb(56,54,54);
+    background-color:rgb(255,255,255);
     border-radius: 15px;
-    width:1127px;
+    width:85%;
     height: 320px;
     overflow-y: scroll;
 }
@@ -106,29 +107,29 @@
     position: absolute;
     bottom: -35px;
     left: 270px;
-    color:white;
+    color:rgb(93,94,96);
     /* text-align: center; */
 }
 .monthAndYear_fcec416d, .year_fcec416d, .decade_fcec416d{
-    color:white
+    color:rgb(93,94,96)
 }
 /* .weekday_fcec416d{
     color:white
 } */
 .dayIsUnfocused_fcec416d{
-    color:rgb(229, 140, 34)
+    color:rgb(67, 119, 208)
 }
 .dayWrapper_fcec416d, .weekday_fcec416d{
-    color:white
+    color:rgb(114,116,118)
 }
 .currentYear_fcec416d, .currentDecade_fcec416d{
-    color:white
+    color:rgb(114,116,118)
 }
 .closeButton_fcec416d, .prevMonth_fcec416d, .nextMonth_fcec416d, .prevYear_fcec416d, .nextYear_fcec416d, .prevDecade_fcec416d, .nextDecade_fcec416d{
-    color:white
+    color:rgb(114,116,118)
 }
 .monthOption_fcec416d, .yearOption_fcec416d{
-    color:white
+    color:rgb(114,116,118)
 }
 .pickerIsOpened_fcec416d{
     left:-16px;
@@ -138,30 +139,30 @@
     margin-bottom: 0px;
 }
 .root-143{
-    background-color: rgb(56,54,54);
+    background-color: rgb(255,255,255);
     border-bottom-color: #A9A9A9;
-    color:white
+    color:rgb(114,116,118)
 }
 .isRowHeader-152{
-    color:white
+    color:rgb(114,116,118)
 }
 .root-102{
-    background-color: rgb(56,54,54);
-    color:white
+    background-color: rgb(255,255,255);
+    color:rgb(114,116,118)
 }
 .root-106{
-    background-color: rgb(56,54,54);
+    background-color: rgb(255,255,255);
     border-bottom-color: #A9A9A9;
 }
 .root-125{
-    color:white
+    color:rgb(114,116,118)
 }
 .fileIconHeaderIcon-129{
-    color: white;
+    color: rgb(114,116,118);
 }
 .root-138{
-    color:white
+    color:rgb(114,116,118)
 }
 .sortIcon-128{
-    color:white;
+    color:rgb(114,116,118);
 }
